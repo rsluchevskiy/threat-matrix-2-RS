@@ -1,3 +1,30 @@
+#    ------ BEGIN LICENSE ATTRIBUTION ------
+#    
+#    Portions of this file have been appropriated or derived from the following project(s) and therefore require attribution to the original licenses and authors.
+#    
+#    Project: https://www.faceswap.dev
+#    Release: https://github.com/deepfakes/faceswap/releases/tag/v2.0.0
+#    Source File: faceswap.py
+#    
+#    Copyrights:
+#      copyright (c) <year>  <name of author>
+#      copyright (c) 2014 adrian rosebrock, http://www.pyimagesearch.com
+#      copyright (c) 2017 fariz rahman
+#      (c) > 127 for c in fnt])])
+#      copyright (c) 2007 free software foundation, inc. <http://fsf.org/>
+#      copyright (c) 2016 kaipeng zhang
+#      copyright (c) 2018 openai (http://openai.com)
+#      copyright treaty adopted on 20 december 1996, or
+#      copyright (c) 2011, the scikit-image team all rights reserved
+#      copyright (c) 2017 yin guobing
+#    
+#    Licenses:
+#      GNU General Public License v3.0 only
+#      SPDXId: GPL-3.0-only
+#    
+#    Auto-attribution by Threatrix, Inc.
+#    
+#    ------ END LICENSE ATTRIBUTION ------
 # https://github.com/healthchecks/healthchecks/blob/v1.15.0/hc/api/management/commands/prunepingsslow.py
 class Command(BaseCommand):
     help = """Prune pings based on limits in user profiles.
