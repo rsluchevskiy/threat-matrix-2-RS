@@ -8,10 +8,19 @@
 #      GNU General Public License v3.0 only
 #      SPDXId: GPL-3.0-only
 #    
+#      GNU General Public License v3.0 only
+#      SPDXId: GPL-3.0-only
+#    
+#    
+#    Release: https://github.com/healthchecks/healthchecks/releases/tag/v1.23.1
+#    Source File: prunepingsslow.py
+#    Licenses:
+#      BSD 3-Clause "New" or "Revised" License
+#      SPDXId: BSD-3-Clause
+#    
 #    Auto-attribution by Threatrix, Inc.
 #    
 #    ------ END LICENSE ATTRIBUTION ------
-# https://github.com/healthchecks/healthchecks/blob/v1.15.0/hc/api/management/commands/prunepingsslow.py
 class Command(BaseCommand):
     help = """Prune pings based on limits in user profiles.
     This command prunes each check individually. So it does the work
