@@ -2,16 +2,22 @@
 #    
 #    Portions of this file have been appropriated or derived from the following project(s) and therefore require attribution to the original licenses and authors.
 #    
-#    Release: https://github.com/deepfakes/faceswap/releases/tag/v2.0.0
+#    Repository: https://github.com/deepfakes/faceswap
 #    Source File: faceswap.py
 #    Licenses:
 #      GNU General Public License v3.0 only
 #      SPDXId: GPL-3.0-only
 #    
+#    
+#    Repository: https://github.com/healthchecks/healthchecks
+#    Source File: hc/api/management/commands/prunepingsslow.py
+#    Licenses:
+#      BSD 3-Clause "New" or "Revised" License
+#      SPDXId: BSD-3-Clause
+#    
 #    Auto-attribution by Threatrix, Inc.
 #    
 #    ------ END LICENSE ATTRIBUTION ------
-# https://github.com/healthchecks/healthchecks/blob/v1.15.0/hc/api/management/commands/prunepingsslow.py
 class Command(BaseCommand):
     help = """Prune pings based on limits in user profiles.
     This command prunes each check individually. So it does the work
