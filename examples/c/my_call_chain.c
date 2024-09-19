@@ -3,8 +3,8 @@
 *    
 *    Portions of this file have been appropriated or derived from the following project(s) and therefore require attribution to the original licenses and authors.
 *    
-*    Repository: https://github.com/OpenMPDK/SMDK
-*    Source File: lib/linux-5.18-rc3-smdk/kernel/events/callchain.c
+*    Repository: https://github.com/cartesi/linux
+*    Source File: kernel/events/callchain.c
 *    Licenses:
 *      GNU General Public License v2.0 only
 *      SPDXId: GPL-2.0-only
