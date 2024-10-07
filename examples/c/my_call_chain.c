@@ -1,3 +1,25 @@
+/*
+*    ------ BEGIN LICENSE ATTRIBUTION ------
+*    
+*    Portions of this file have been appropriated or derived from the following project(s) and therefore require attribution to the original licenses and authors.
+*    
+*    Repository: https://github.com/OpenMPDK/SMDK
+*    Source File: lib/linux-5.18-rc3-smdk/kernel/events/callchain.c
+*    
+*    Copyrights:
+*      copyright  ��  2009 paul mackerras, ibm corp. <paulus@au1.ibm.com>
+*      copyright (c) 2008 thomas gleixner <tglx@linutronix.de>
+*      copyright (c) 2008-2011 red hat, inc., ingo molnar
+*      copyright (c) 2008-2011 red hat, inc., peter zijlstra
+*    
+*    Licenses:
+*      GNU General Public License v2.0 only
+*      SPDXId: GPL-2.0-only
+*    
+*    Auto-attribution by Threatrix, Inc.
+*    
+*    ------ END LICENSE ATTRIBUTION ------
+*/
 truct callchain_cpus_entries {
 	struct rcu_head			rcu_head;
 	struct perf_callchain_entry	*cpu_entries[];
